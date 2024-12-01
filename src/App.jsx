@@ -40,14 +40,14 @@ function App() {
 
           <div className="repayments">
             <label htmlFor="repayment">
-              <input id='repayment' type="radio" />
+              <input id='repayment' name='mortgageType' type="radio" />
               <span>Repayment</span>
             </label>
           </div>
 
-          <div className="interstOnly">
+          <div className="interstOnlys">
             <label htmlFor="interestOnly">
-              <input id='interestOnly' type="radio" />
+              <input id='interestOnly' name='mortgageType' type="radio" />
               <span>Interest Only</span>
             </label>
           </div>
@@ -58,7 +58,20 @@ function App() {
         </form>
       </div>
 
-      <div className="container-right"></div>
+      <div className="container-right">
+        <h2>Your results</h2>
+        <h5>Your results are shown below based on the information you provided. To adjust the results, edit the form and click “calculate repayments” again.</h5>
+
+        <div className="answersheet">
+          <h4>Your monthly repayments</h4>
+          <h1>£1,797.74</h1>
+
+          <hr />
+
+          <h4 className='over'>Total you'll repay over the term</h4>
+          <h2>£539,322.94</h2>
+        </div>
+      </div>
     </div>
   )
 }

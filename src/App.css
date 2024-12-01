@@ -9,6 +9,11 @@ body {
   width: 1008px;
   margin: 0 auto;
   margin-top: 100px;
+  margin-bottom: 50px;
+  display: flex;
+  background-color: #fff;
+  border-radius: 25px;
+  overflow: hidden;
 }
 
 .container-left {
@@ -16,7 +21,6 @@ body {
   padding: 28px;
   padding-left: 38px;
   padding-top: 40px;
-  border-radius: 12px;
   background-color: rgb(255, 255, 255);
 
   .form {
@@ -164,10 +168,10 @@ body {
 
       label {
         display: inline-block;
-        width: 424px;
+        width: 432px;
         height: 52px;
         border-radius: 4px;
-        border: 2px solid rgb(216, 219, 47);
+        border: 2px solid rgb(176, 175, 175);
         background-color: rgb(249, 250, 224);
         padding: 10px;
         padding-top: 14px;
@@ -185,6 +189,131 @@ body {
           bottom: 3px;
         }
       }
+    }
+
+    .interstOnlys {
+      margin-top: 15px;
+      margin-bottom: 25px;
+
+      label {
+        display: inline-block;
+        width: 432px;
+        height: 52px;
+        border-radius: 4px;
+        border: 2px solid rgb(176, 175, 175);
+        background-color: rgb(249, 250, 224);
+        padding: 10px;
+        padding-top: 14px;
+        display: flex;
+        gap: 10px;
+
+        input {
+          width: 20px;
+          height: 20px;
+          margin-left: 10px;
+        }
+
+        span {
+          position: relative;
+          bottom: 3px;
+        }
+      }
+    }
+
+    .btn {
+      width: 314px;
+      height: 56px;
+      border-radius: 30px;
+      display: flex;
+      gap: 15px;
+      border: none;
+      padding-top: 15px;
+      padding-left: 32px;
+      background-color: rgba(216, 219, 47, 1);
+      font-weight: 700;
+      font-size: 20px;
+      color: rgba(19, 48, 65, 1);
+      cursor: pointer;
+
+      img {
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.container-right {
+  width: 504px;
+  background-color: rgba(19, 48, 65, 1);
+  padding-left: 30px;
+  padding-top: 34px;
+  border-bottom-left-radius: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  h2 {
+    font-weight: 600;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+  }
+
+  h5 {
+    width: 424px;
+    height: 72px;
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(154, 190, 213, 1);
+  }
+
+  .answersheet {
+    width: 424px;
+    height: 293px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 30px;
+    padding-top: 25px;
+    border-radius: 7px;
+    border-top: 4px solid rgb(216, 219, 47);
+    background-color: rgb(14, 36, 49);
+    margin-top: 20px;
+
+    h4 {
+      font-weight: 500;
+      font-size: 18px;
+      color: rgba(154, 190, 213, 1);
+    }
+    
+    h1 {
+      font-weight: 700;
+      line-height: 70px;
+      font-size: 62px;
+      margin-top: 5px;
+      color: rgba(216, 219, 47, 1);
+    }
+
+    hr {
+      width: 360px;
+      height: 2px;
+      background-color: rgba(154, 190, 213, 0.25);
+      color: rgba(154, 190, 213, 0.25);
+    }
+
+    .over {
+      font-weight: 500;
+      font-size: 18px;
+      color: rgba(154, 190, 213, 1);
+      margin-top: 18px;
+    }
+
+    h2 {
+      font-weight: 700;
+      font-size: 32px;
+      color: rgb(255, 255, 255);
     }
   }
 }
