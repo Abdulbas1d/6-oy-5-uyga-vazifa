@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
 
+
 body {
   font-family: 'Poppins', sans-serif;
   background-color: rgb(228, 244, 253);
@@ -14,6 +15,10 @@ body {
   background-color: #fff;
   border-radius: 25px;
   overflow: hidden;
+
+  input {
+    outline: none;
+  }
 }
 
 .container-left {

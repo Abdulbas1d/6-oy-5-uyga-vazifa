@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './App.css'
 import calculatorIcon from './assets/images/calculator-icon.svg'
 
 function App() {
+  const [mortage, setMortage] = useState(null)
+  // const []
   return (
     <div className='container'>
       <div className="container-left">
